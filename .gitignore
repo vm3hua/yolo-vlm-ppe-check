@@ -1,0 +1,34 @@
+# --- Ignore everything ---
+*
+
+# --- Allow only these paths ---
+!.gitignore
+!README.md
+!qwen2vl/**
+!ultralytics/**
+
+# --- Inside qwen2vl ---
+qwen2vl/models/
+qwen2vl/vlm_outputs/
+qwen2vl/vlm_outputs_val/
+qwen2vl/__pycache__/
+qwen2vl/*.pyc
+qwen2vl/.ipynb_checkpoints/
+qwen2vl/.env
+qwen2vl/.venv/
+
+# --- Inside ultralytics ---
+ultralytics/runs/
+ultralytics/weights/
+ultralytics/datasets/
+ultralytics/out_json_test/
+ultralytics/out_json_val/
+ultralytics/__pycache__/
+ultralytics/*.pyc
+ultralytics/.ipynb_checkpoints/
+ultralytics/.env
+ultralytics/.venv/
+
+# --- Common ---
+**/.DS_Store
+**/*.log
