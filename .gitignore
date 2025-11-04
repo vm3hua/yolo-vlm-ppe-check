@@ -1,34 +1,25 @@
-# --- Ignore everything ---
+# 忽略全部
 *
 
-# --- Allow only these paths ---
+# 允許這些檔案/資料夾
 !.gitignore
 !README.md
+!qwen2vl/
 !qwen2vl/**
+!ultralytics/
 !ultralytics/**
 
-# --- Inside qwen2vl ---
+# 再忽略大檔與暫存
 qwen2vl/models/
-qwen2vl/vlm_outputs/
-qwen2vl/vlm_outputs_val/
-qwen2vl/__pycache__/
-qwen2vl/*.pyc
-qwen2vl/.ipynb_checkpoints/
-qwen2vl/.env
-qwen2vl/.venv/
-
-# --- Inside ultralytics ---
+qwen2vl/vlm_outputs*/
 ultralytics/runs/
 ultralytics/weights/
 ultralytics/datasets/
-ultralytics/out_json_test/
-ultralytics/out_json_val/
-ultralytics/__pycache__/
-ultralytics/*.pyc
-ultralytics/.ipynb_checkpoints/
-ultralytics/.env
-ultralytics/.venv/
-
-# --- Common ---
+ultralytics/out_json_*/
+**/__pycache__/
+**/*.pyc
+**/.ipynb_checkpoints/
+**/.env
+**/.venv/
 **/.DS_Store
 **/*.log
