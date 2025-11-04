@@ -1,21 +1,47 @@
-# 忽略全部
+# --- 忽略全部 ---
 *
 
-# 允許這些檔案/資料夾
+# --- 只允許以下關鍵內容 ---
 !.gitignore
 !README.md
 !qwen2vl/
 !qwen2vl/**
 !ultralytics/
 !ultralytics/**
+!ultralytics/build_ppe_json.py
+!ultralytics/ultralytics/
+!ultralytics/pyproject.toml
+!ultralytics/README.md
+!ultralytics/LICENSE
 
-# 再忽略大檔與暫存
+# --- 忽略 qwen2vl 不必要內容 ---
 qwen2vl/models/
-qwen2vl/vlm_outputs*/
-ultralytics/runs/
-ultralytics/weights/
+qwen2vl/vlm_outputs/
+qwen2vl/vlm_outputs_val/
+qwen2vl/__pycache__/
+qwen2vl/*.pyc
+qwen2vl/.ipynb_checkpoints/
+qwen2vl/.env
+qwen2vl/.venv/
+
+# --- 忽略 ultralytics 不必要內容 ---
 ultralytics/datasets/
-ultralytics/out_json_*/
+ultralytics/docker/
+ultralytics/docs/
+ultralytics/examples/
+ultralytics/runs/
+ultralytics/tests/
+ultralytics/weights/
+ultralytics/out_json_test/
+ultralytics/out_json_val/
+ultralytics/ultralytics.egg-info/
+ultralytics/mkdocs.yml
+ultralytics/yolo11n.pt
+ultralytics/CITATION.cff
+ultralytics/CONTRIBUTING.md
+ultralytics/README.zh-CN.md
+
+# --- 通用忽略 ---
 **/__pycache__/
 **/*.pyc
 **/.ipynb_checkpoints/
