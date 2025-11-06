@@ -15,7 +15,7 @@ All annotations are provided in **YOLO format**, suitable for direct training an
 
 ### Class Distribution
 
-![Construction-PPE Dataset Distribution](<images/stat.pdf>)
+![Construction-PPE Dataset Distribution](https://github.com/vm3hua/yolo-vlm-ppe-check/blob/main/images/stats.pdf?raw=true)
 
 | Class | Count |
 |:------|------:|
