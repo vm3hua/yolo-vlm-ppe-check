@@ -1,8 +1,3 @@
----
-title: Construction Site PPE Detection + VLM Integration
-
----
-
 # Construction Site PPE Detection + VLM Integration
 
 
