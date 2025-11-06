@@ -13,10 +13,10 @@ The dataset used in this project is the **Construction-PPE Dataset**, which cont
 All annotations are provided in **YOLO format**, suitable for direct training and evaluation.
 
 ### Class Distribution
-![stat](https://hackmd.io/_uploads/Skln8y91-l.png)
+![stat](images/stat.png)
 
 
 ## System Architecture
 
 The overall pipeline consists of five main stages:
-![ob_vlm](https://hackmd.io/_uploads/HJEzwkckZg.png)
+![ob_vlm](images/ob_vlm.png)
