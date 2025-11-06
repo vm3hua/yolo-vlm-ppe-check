@@ -15,7 +15,7 @@ All annotations are provided in **YOLO format**, suitable for direct training an
 
 ### Class Distribution
 
-![Construction-PPE Dataset Distribution](<YOUR_DATASET_IMAGE_URL>)
+![Construction-PPE Dataset Distribution](images/stat.pdf)
 
 | Class | Count |
 |:------|------:|
